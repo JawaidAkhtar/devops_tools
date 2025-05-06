@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 #Installation of JAVA
 
 sudo apt update
