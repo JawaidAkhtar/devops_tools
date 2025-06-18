@@ -16,7 +16,7 @@ sudo systemctl enable --now docker
 sudo usermod -aG docker $USER && newgrp docker
 
 #downloading minikube binary 
-curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64
 
 #installing minikube
 sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
